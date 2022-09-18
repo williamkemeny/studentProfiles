@@ -1,0 +1,98 @@
+.search-display,
+.search-display-tag {
+  display: inline-block;
+  background-color: white;
+  width: 95%;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 12px;
+}
+.search-display-tag {
+  font-size: 16px;
+  width: 27%;
+}
+hr {
+  margin: 0;
+}
+
+.tag-hr {
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+
+.list {
+  margin-top: 50px;
+}
+
+.accordion-item {
+  flex-direction: row;
+}
+
+.accordion-title {
+  cursor: pointer;
+  height: 90px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.accordion-title,
+.accordion-content {
+  padding: 1rem;
+}
+
+.plusMinus {
+  font-size: 40px;
+  font-weight: 700;
+  color: grey;
+  right: 0;
+}
+
+.accordion-content,
+.create-tags {
+  margin-left: 240px;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  font-size: 20px;
+}
+
+.Name {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.image {
+  align-items: center;
+  min-width: 150px;
+  min-height: 200px;
+  max-height: 200px;
+  margin-top: 10px;
+  margin-right: 50px;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 100px;
+}
+
+.tag-list {
+  margin-left: 12px;
+}
+
+.tags {
+  margin-right: 8px;
+  border-radius: 20px;
+  background-color: rgb(205, 215, 223);
+  padding: 6px;
+}
